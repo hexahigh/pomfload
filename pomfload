@@ -1,5 +1,5 @@
 #!/bin/sh
-uppomf="https://pantsu.cat/upload.php"
+uppomf="https://fileditch.com/upload.php"
 
 if test $# -lt 1 ; then
     echo "Usage: $(basename "$0") FILE [FILE...]"
@@ -12,4 +12,4 @@ for f ; do
     set -- "$@" -F "files[]=@$f"
 done
 
-curl -fsSL "$@" "$uppomf" | jq -c -r ".files[].url"
+./curl -fsSL "$@" "$uppomf" | ./jq -c -r ".files[].url"
