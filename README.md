@@ -9,7 +9,6 @@ pomfload FILE [FILE [FILE...]]
 ```
 
 This fork comes with the requirements already installed. (Currently amd64 only.)
-DONT FORGET TO RUN "sudo chmod -R ugo+rwx" on the directory first before running it.
 
 requirements (Not required anymore)
 ---
