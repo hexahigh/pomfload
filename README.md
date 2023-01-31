@@ -7,7 +7,9 @@ usage: pomfload FILE [FILE [FILE...]]
 what are you, stupid?
 ```
 
-requirements
+This fork comes with the requirements already installed
+
+requirements (Not required anymore)
 ---
 * POSIX-compatible shell
 * [curl](http://curl.haxx.se/)
