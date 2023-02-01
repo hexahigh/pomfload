@@ -1,5 +1,5 @@
 #!/bin/sh
-uppomf="https://fileditch.com/upload.php"
+uppomf="https://up1.fileditch.com/upload.php"
 
 if test $# -lt 1 ; then
     echo "Usage: $(basename "$0") FILE [FILE...]"
